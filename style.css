@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  color: black;
+  background-size: cover;
+  width: 100%;
+  background-image: url("https://media.istockphoto.com/id/1457889029/photo/group-of-food-with-high-content-of-dietary-fiber-arranged-side-by-side.jpg?b=1&s=612x612&w=0&k=20&c=BON5S0uDJeCe66N9klUEw5xKSGVnFhcL8stPLczQd_8=");
+}
+
+/* header heading section */
+#heading {
+  margin-top: 100px;
+}
+
+/* header navbar */
+#nav {
+  background-color: black;
+}
+
+.app_name {
+  font-size: 2rem;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/* header search bar section */
+#search-bar {
+  max-width: 600px;
+}
+
+#search-bar input {
+  height: 50px;
+  border-radius: 20px;
+}
+
+/* meal card */
+#card {
+  background-image: linear-gradient(119deg, #2b9b14bd, #85a323e3);
+  padding: 10px;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#card h5 {
+  color: black;
+  font-family: cursive;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+#card img {
+  border-radius: 50%;
+}
+
+#card-title {
+  color: black;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-family: monospace;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+#meal-details {
+  width: 100%;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #ff3044;
+}
+
+#meal-header {
+  width: 70%;
+  margin: auto;
+}
+
+#meal-thumbail img {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+}
+
+#details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-style: italic;
+}
+
+#meal-instruction {
+  margin: auto;
+  text-align: center;
+}
+
+/* favourites offcanvus */
+#favourites-body {
+  background-color: #212529;
+}
+
+#fav {
+  margin: 0 20px;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
